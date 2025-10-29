@@ -1,0 +1,13 @@
+import csv
+reader = csv.reader(open("d:\students.csv"))
+for row in reader:
+    print(row)
+Input:
+File name: students.csv
+vtuno    name   year
+1234     aaaa      2
+4567     bbbb      3
+Output:
+['vtuno name year']
+['1234 aaaa 2']
+['4567 bbbb 3']
